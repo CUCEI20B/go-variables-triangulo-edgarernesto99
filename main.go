@@ -3,5 +3,14 @@ package main
 import "fmt"
 
 func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+	var (
+		base uint;
+		altura uint;
+		area uint;
+	)
+	fmt.Scan(&base);
+	fmt.Scan(&altura);
+
+	area = base*altura/2
+	fmt.Println(area);
 }
